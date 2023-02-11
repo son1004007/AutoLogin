@@ -4,10 +4,13 @@ import java.net.URISyntaxException;
 import java.awt.AWTException;
 import java.awt.Desktop;
 import java.awt.Robot;
+import java.util.logging.Logger;
+import java.util.logging.Level;
 
 public class AutoLogin {
 	public static void main(String [] args) throws AWTException {
 		final int VK_ENTER = 10;
+		final Logger log = Logger.getGlobal();
 		
 		try {
 			Desktop.getDesktop().browse(new URI("https://www.projectware.kr/A/In.aspx"));
@@ -25,5 +28,7 @@ public class AutoLogin {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		log.warning("warning");
+		log.info("info");
 	}
 }
