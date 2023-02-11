@@ -5,7 +5,6 @@ import java.awt.AWTException;
 import java.awt.Desktop;
 import java.awt.Robot;
 import java.util.logging.Logger;
-import java.util.logging.Level;
 
 public class AutoLogin {
 	public static void main(String [] args) throws AWTException {
