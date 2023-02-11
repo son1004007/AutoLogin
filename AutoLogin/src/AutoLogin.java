@@ -28,6 +28,7 @@ public class AutoLogin {
 			e.printStackTrace();
 		}
 		// test
+		// test2
 		
 		log.warning("warning");
 		log.info("info");
